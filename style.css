@@ -29,7 +29,14 @@ header{
    
    
 }
+main{
+  
+width: 1660px;
+
+}
 /* banner title */
+
+
 .banner-ti{
     align-items: center;
     font-family: 'Merriweather';
@@ -41,7 +48,7 @@ header{
     font-size: 72px;
 
     font-weight: 900;   
-    ma
+   
     line-height: 95px; 
 
 }
@@ -54,9 +61,7 @@ header{
     font-weight: 400;
 
 }
-main{
-    width: 100%;
-}
+
 
 .catagory{
     margin-top: 70px;
@@ -383,11 +388,6 @@ margin-bottom: 50px;
     padding-top: 15px;
     padding: 0px 100px;
     line-height: 36px;
-    
-}
-.box-content{
-  
-
 }
 .holiday-box{
 
@@ -528,7 +528,7 @@ display: block;
 justify-content: center;
 text-align: center;
     
-
+}
 /* .mail-content{
     display: block;
     align-items: center;
@@ -597,17 +597,25 @@ text-align: center;
     border: 0;
 }
 
-/* footer */
-.footer{
+
+footer{
     background-color: #070211;
-    padding:100px 0px;
+  margin-bottom: auto;
     margin-top: 75px;
+    width: 1260px;
+height: 409px;
+flex-shrink: 0;
+justify-content: baseline;
+align-items: baseline;
+text-align: left;
+/* background-image: linear-gradient(url(background: #070211)); */
 }
 .footer-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
+
 }
 .footer-left p{
     color: #FFFFFF;
@@ -665,8 +673,20 @@ hr{
     align-items: center;
     padding-top: 25px;
 }
-.copy-right small{
-    color: #FFFFFF;
-    font-size: 20px;
-    text-align: center;
+.reserved{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.unsub{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
