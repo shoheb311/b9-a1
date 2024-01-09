@@ -1,15 +1,15 @@
 *{
     margin: 0;
-    padding: auto;
-    box-sizing: border-box;
-    
+   
+    /* box-sizing: border-box; */
+    padding: 0;
    
 }
 body{
 
     background: #FFF;
     align-items: center;  
-    padding-top: 50px;
+
    
   
 }
@@ -31,8 +31,8 @@ header{
 }
 main{
   
-width: 1660px;
-
+margin: 0;
+padding: 0;
 }
 /* banner title */
 
@@ -116,7 +116,7 @@ align-items: center;
 .midnight{
     position: relative;
 
-margin-top: 120px;
+    margin-top: 120px;
     
     margin-left:50px;
  
@@ -529,13 +529,11 @@ justify-content: center;
 text-align: center;
     
 }
-/* .mail-content{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffe5e5;
 
-} */
+
+.mail-content{
+    margin-top: 40px;
+}
 .mail-photo{
     
     display:flex;
@@ -600,13 +598,13 @@ text-align: center;
 
 footer{
     background-color: #070211;
-  margin-bottom: auto;
+
     margin-top: 75px;
-    width: 1260px;
+   
 height: 409px;
-flex-shrink: 0;
-justify-content: baseline;
-align-items: baseline;
+border-radius: 5px;
+
+
 text-align: left;
 /* background-image: linear-gradient(url(background: #070211)); */
 }
@@ -614,7 +612,7 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
+    padding: 15px;
 
 }
 .footer-left p{
@@ -680,6 +678,7 @@ hr{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 15px;
 
 }
 .unsub{
@@ -689,4 +688,5 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding: 15px;
 }
